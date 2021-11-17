@@ -294,6 +294,64 @@ justify-content: space-around;
 }
 
 
+
+@media (max-width: 1100px) {
+h1{
+    font-size: 40px;
+  }
+
+.intro_text ul{
+  font-size: 22px;
+}
+
+.intro_text q{
+  font-size: 22px;
+}
+.About_text{
+  font-size: 30px;
+}
+.about_itmo span{
+  font-size: 22px;
+}
+.info_about > div span{
+  font-size: 22px;
+}
+}
+
+@media (max-width: 900px) {
+h1{
+    font-size: 38px;
+  }
+.minimized{
+  max-width: 95%;
+  max-height: 95%;
+}  
+.intro_text ul{
+  font-size: 19px;
+}
+
+.intro_text q{
+  font-size: 19px;
+}
+.info_about div img{
+  max-width: 70%;
+  max-height: 70%;
+}
+.About_text{
+  font-size: 30px;
+}
+.about_itmo span{
+  font-size: 12px;
+}
+.info_about > div span{
+  font-size: 12px;
+}
+.Page{
+  max-width: 70%;
+  max-height: 70%;
+}
+}
+
 @media (max-width: 768px) {
 h1{
     font-size: 30px;
@@ -324,25 +382,40 @@ h1{
 }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 600px) {
 h1{
-    font-size: 40px;
+    font-size: 24px;
   }
-
+.minimized{
+  max-width: 90%;
+  max-height: 90%;
+}  
+.logo{
+  max-width: 30%;
+  max-height: 30%;
+}
 .intro_text ul{
-  font-size: 22px;
+  font-size: 12px;
 }
 
 .intro_text q{
-  font-size: 22px;
+  font-size: 12px;
+}
+.info_about div img{
+  max-width: 50%;
+  max-height: 50%;
 }
 .About_text{
   font-size: 30px;
 }
 .about_itmo span{
-  font-size: 22px;
+  font-size: 12px;
 }
 .info_about > div span{
-  font-size: 22px;
+  font-size: 12px;
+}
+.Page{
+  max-width: 70%;
+  max-height: 70%;
 }
 }
