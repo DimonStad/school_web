@@ -176,10 +176,10 @@ align-items: center;
 }
 
 .galerey{
-height: 377px;
-display: flex;
+  align-items: center;
+  display: flex;
 
-justify-content: space-around;
+  justify-content: space-around;
 /*flex-wrap: wrap;*/
 }
 
@@ -445,6 +445,7 @@ h1{
 }
 .About_text{
   font-size: 18px;
+  width: 40%;
 }
 
 .info_about > div{
@@ -458,9 +459,13 @@ h1{
 .info_about > div span{
   font-size: 10px;
 }
-.Page{
-  max-width: 70%;
-  max-height: 70%;
+.galerey{
+  justify-content: space-between;
+}
+.Page img{
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
 }
 
 .info_contacts  div img{
@@ -470,6 +475,15 @@ h1{
 
 .info_contacts  div span{
   font-size: 10px;
+}
+
+#contacts{
+  font-size: 23px;
+}
+
+.polzun input{
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 }

@@ -49,7 +49,7 @@
 	<div class="info_about">
 		<div>
 			<span>Родился 23.11.2000 в городе Тулун, Иркутская область</span>
-			<img src="Assets/Img/tulun.png" alt="Иркутская область"/>
+			<img src="Assets/Img/Tulun.png" alt="Иркутская область"/>
 		</div>
 		<div class="about_itmo">
 			<span>В 2018 году закончил школу и поступил в ИТМО на специальность “Интернет технологии и программирование”</span>
@@ -71,21 +71,20 @@
 		<img src="Assets/Img/page2.jpg" alt="Красивое фото"/>
 	</div>
 	<div class="Page">
-		<img src="Assets/Img/page3.jpg" alt="Красивое фото"/>
+		<img src="Assets/Img/Page3.jpg" alt="Красивое фото"/>
 	</div>
 </section>
 <section class="Band">	</section>
 <section class="polzun">
 	<fieldset>
-			<legend>Оцените страницу</legend>
-			<form method="post" action="DFSD.COM">
-				<p>
-					Оценка 1<input type="range" min="1" max="10" step="1" value="10" name="range"  />10
-				</p>
-				<p>
-					<input type="submit" value="Ввести" />
-				</p>
+			<legend>Погода</legend>
+			<form>
+					<input type="text" id="city">
+					<input type="button" onclick="find()" value="Показать" />
 			</form>
+			<p id = "weather">
+				
+			</p>
 		</fieldset>
 </section>
 <section class="Band">	</section>
@@ -112,5 +111,6 @@
 </footer>
 	<script src = "Assets/JS/jquery-3.1.1.min.js"></script>
 	<script src = "Assets/JS/Galery.js"></script>
+	<script src = "Assets/JS/weather.js"></script>
 </body>
 </html>
