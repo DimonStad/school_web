@@ -185,6 +185,7 @@ align-items: center;
 
 .Page{
  margin-top: 36px;
+ margin-bottom: 36px;
  display: inline-block; /* Строчно-блочный элемент */
  overflow: hidden; /* Скрываем всё за контуром */
 }
@@ -196,6 +197,10 @@ align-items: center;
    .Page img:hover {
     transform: scale(1.2); /* Увеличиваем масштаб */
    }
+
+.managed{
+  margin:   0 20px;
+}
 
 .info_contacts{
   display: flex;
@@ -380,6 +385,10 @@ h1{
 .info_about > div span{
   font-size: 12px;
 }
+.menu-main{
+  padding-top: 5px;
+}
+
 }
 
 @media (max-width: 600px) {
@@ -477,7 +486,7 @@ h1{
   font-size: 10px;
 }
 
-#contacts{
+#contacts, .managed h2{
   font-size: 23px;
 }
 
